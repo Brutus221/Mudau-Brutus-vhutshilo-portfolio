@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div id="home" className="h-screen w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
-      <h1  className="uppercase font-bold text-gray-700  text-3xl ">
+      <h1  className="uppercase font-bold text-gray-700  text-1xl ">
           Mudau Brutus Vhutshilo - portfolio
         </h1>
         <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">

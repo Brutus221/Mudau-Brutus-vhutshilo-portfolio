@@ -62,7 +62,7 @@ const Contact = () => {
 
           {/* form stuff  */}
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
-            <div className="p-4 text-left">
+            <div className="p-1 text-left">
               <form
                 action="https://getform.io/f/4711ad8b-0dca-4624-ba3a-4332461a4109"
                 method="POST"
@@ -75,7 +75,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="name"
-                      className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                      className="border-2 rounded-lg p-1 flex focus:outline-none border-blue-200"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -85,7 +85,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="phone"
-                      className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                      className="border-2 rounded-lg p-1 flex focus:outline-none border-blue-200"
                     />
                   </div>
 
@@ -96,7 +96,7 @@ const Contact = () => {
                     <input
                       type="email"
                       name="email"
-                      className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                      className="border-2 rounded-lg p-1 flex focus:outline-none border-blue-200"
                     />
                   </div>
                   <div className="flex flex-col col-span-2">
@@ -106,7 +106,7 @@ const Contact = () => {
                     <textarea
                       name="message"
                       rows="10"
-                      className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                      className="border-2 rounded-lg p-1 flex focus:outline-none border-blue-200"
                     ></textarea>
                   </div>
                 </div>
