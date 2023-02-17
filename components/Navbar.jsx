@@ -129,18 +129,26 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+              <Link href="https://www.linkedin.com/in/brutus-vhutshilo-mudau-b33a671b1/">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
                   <FaLinkedin size={25} />
                 </div>
+                </Link>
+                <Link href="https://twitter.com/BrutusSaudi">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
                   <FaTwitter size={25} />
                 </div>
+                </Link>
+                <Link href="https://web.facebook.com/profile.php?id=100006265784590">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
                   <FaFacebook size={25} />
                 </div>
+                </Link>
+                <Link href="https://github.com/brutus221">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
                   <FaGithub size={25} />
                 </div>
+                </Link>
               </div>
             </div>
           </div>
