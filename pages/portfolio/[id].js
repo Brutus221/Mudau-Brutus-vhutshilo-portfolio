@@ -87,7 +87,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
         
         <h6>
           
-          A blockchain is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+          A blockchain is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
           
  </h6>
          
@@ -109,7 +109,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
       <div>
         
         <h6>
-       Ecommerce Pizza Cart is a website that allows users to buy Pizza online with different sizes. uses a cart to store orders and the calculate the total price to pay, please view the deployed project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+       Ecommerce Pizza Cart is a website that allows users to buy Pizza online with different sizes. uses a cart to store orders and the calculate the total price to pay, please view the deployed project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
  </h6>
          
       </div>
@@ -129,7 +129,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
       <div>
         
         <h6>
-          mp3 and mp4 Web Multimedia is a music and video player that can also add playlist,this system allows users to play on the web, please view a deployed link for a project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+          mp3 and mp4 Web Multimedia is a music and video player that can also add playlist,this system allows users to play on the web, please view a deployed link for a project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
  </h6>
          
       </div>
@@ -153,7 +153,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
            when verified ten user will login using student number, 
            but to login they have to verify their number phone by otp sent as an sms, 
            this number should be registered when a user register to the site.
-          after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+          after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
  </h6>
          
       </div>
