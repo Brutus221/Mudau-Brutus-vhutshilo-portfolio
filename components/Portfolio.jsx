@@ -35,9 +35,7 @@ const Portfolio = () => {
       imageSrc: login,
       url: "Sms-email-verification-site",
     },
-    
-   
-  ];
+    ];
 
   return (
     <div id="portfolio" className="w-full">

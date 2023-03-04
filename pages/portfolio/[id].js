@@ -3,13 +3,15 @@ import media from "../../public/assets/portfolio/Multimedia.jpg";
 import login from "../../public/assets/portfolio/Login1.jpg";
 import cart from "../../public/assets/portfolio/Pizza cart.jpeg";
 import elect from "../../public/assets/portfolio/Election.jpeg";
-import { FaGithub } from "react-icons/fa";
+import ms from "../../public/assets/portfolio/ms.jpeg";
+import { FaCashRegister, FaGithub, FaMusic, FaPizzaSlice, FaRegistered, FaUniversity, FaVoteYea } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
 
 const portfolios = [
+ 
   {
   id: 1,
   title: "Blockchain SRC e-voting Election",
@@ -33,6 +35,12 @@ const portfolios = [
   title: "Sms,Email,Signup and login verification site",
   imageSrc: login,
   url: "Sms-email-verification-site",
+},
+{
+  id: 5,
+  title: "Mechanic Generating Invoice Website",
+  imageSrc: ms,
+  url: "Mechanic-Generating-Invoice-Website",
 },
 ];
 
@@ -59,7 +67,7 @@ export async function getStaticProps({ params }) {
 
 const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
   return (
-    <div className="h-fit w-full text-center">
+    <div className="h-fit w-full text-center ">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
         <div className="flex">
           <Link href="/portfolio">
@@ -69,40 +77,103 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
           </Link>
         </div>
 
-        <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-blue-500 tracking-wider">
-          {title}
-        </h1>
-
-        <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
-          <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
-        </div>
-
-        <h2 className="text-center md:text-left my-4 text-2xl font-bold">
-          Description
+        
+        <h2 className="text-center  md:text-left my-4 text-blue text-2xl font-bold bg-yellow-500 flex items-center justify-center">
+          Watch a Demonstration video and view deployed systems for each project
         </h2>
-
+      
+        
+        <div>
+        
+        <h6>
+          
+          A blockchain is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+          
+ </h6>
+         
+      </div>
+           
+        
+        <div className="flex items-center justify-left gap-10">
+<Link href="/portfolio">
+  <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
         <p>
-      1. Blockchain SRC E-Voting Election.
-The system is created for the university of Johannesburg to persue the 4IR Technology .
-the system allows users to sign up, login, vote using blockchain eutheureum through metamask.
-Users can read a pdf of menufestos. 
-tehnologies and programming languages used on this project are : Javascript,css,bootstrap,html,solidity, Metamask,and Ganache
-
+       Blockchain SRC E-Voting Election.
       </p>
+      <span className="duration-200 ease-in">
+                <FaVoteYea size={18} className="ml-2" />
+              </span>
+      </div>
+      </Link>
+      </div>
+      <div>
+        
+        <h6>
+       Ecommerce Pizza Cart is a website that allows users to buy Pizza online with different sizes. uses a cart to store orders and the calculate the total price to pay, please view the deployed project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+ </h6>
+         
+      </div>
+      <div className="flex items-center justify-left gap-10">
+      <Link href="/portfolio">
+  <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+      
       <p>
-      2.Ecommerce Pizza Cart Website.
+      Ecommerce Pizza Cart Website.
       </p>
-      <p>
-      3.MP3 And Mp4 Web Multimedia.
+      <span className="duration-200 ease-in">
+                <FaPizzaSlice size={18} className="ml-2" />
+              </span>
+      </div>
+      </Link>
+      </div>
+      <div>
+        
+        <h6>
+          mp3 and mp4 Web Multimedia is a music and video player that can also add playlist,this system allows users to play on the web, please view a deployed link for a project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+ </h6>
+         
+      </div>
+      <div className="flex items-center justify-left gap-10">
+      <Link href="/portfolio">
+  <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+  <p>
+      MP3 And Mp4 Web Multimedia.
       </p>
+      <span className="duration-200 ease-in">
+                <FaMusic size={18} className="ml-2" />
+              </span>
+      </div>
+      </Link>
+      </div>
+      <div>
+        
+        <h6>
+          A  Sms,Email,Signup And Login Verification Site is a system that is focused on security of the system,
+          in this system a user register an account with email verification, an email carry an otp generated on real time,
+           when verified ten user will login using student number, 
+           but to login they have to verify their number phone by otp sent as an sms, 
+           this number should be registered when a user register to the site.
+          after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="/portfolio">here</a> watch a video below
+ </h6>
+         
+      </div>
+      <div className="flex items-center justify-left gap-10">
+      <Link href="/portfolio">
+  <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+  
       <p>
-      4.Sms,Email,Signup And Login Verification Site.
+      Sms,Email,Signup And Login Verification Site.
         </p>
-
+        <span className="duration-200 ease-in">
+                <FaUniversity size={18} className="ml-2" />
+              </span>
+      </div>
+      </Link>
+      </div>
         <div className="flex items-center justify-center gap-10">
           <Link href="/">
             <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-              demo
+              demo page
               <span className="duration-200 ease-in">
                 <AiOutlineCaretRight size={18} className="ml-2" />
               </span>

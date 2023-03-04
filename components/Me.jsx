@@ -10,7 +10,7 @@ const About_me = () => {
         <h2 className="text-4xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
           About Me
         </h2>
-
+        
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-2xl mx-auto">
        My Name is Mudau Brutus Vhutshilo, I have obtained a Bsc in Computer Sciences and Information System Degree from the University of Venda in 2021. 
@@ -42,7 +42,7 @@ const About_me = () => {
               my portfolio
               <span className="-rotate-90 duration-100 ease-in group-hover:-rotate-180">
                 <MdExpandMore size={25} />
-              </span>
+              </span> 
             </div>
           </Link>
         </div>

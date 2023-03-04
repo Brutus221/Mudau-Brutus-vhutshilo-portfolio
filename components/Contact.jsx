@@ -37,7 +37,7 @@ const Contact = () => {
                 <FaInbox size={25} />
               </div>
               </Link>
-              <Link href="+27679305405">
+              <Link href="tel:27679305405">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaAddressBook size={25} />
               </div>

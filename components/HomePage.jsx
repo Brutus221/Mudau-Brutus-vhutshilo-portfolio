@@ -4,6 +4,7 @@ import { MdExpandMore } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const HomePage = () => {
   return (
     <div id="home" className="h-screen w-full text-center">
@@ -11,7 +12,7 @@ const HomePage = () => {
       <h1  className="uppercase font-bold bg-blue-500 text-white  text-1xl ">
           Mudau Brutus Vhutshilo - portfolio
         </h1>
-        <div className="w-64 h-150 mx-auto overflow-hidden rounded-xl">
+        <div className="w-64 h-150 mx-auto overflow-hidden   rounded-xl">
           <Image src={heroImage} alt="me" />
         </div>
 

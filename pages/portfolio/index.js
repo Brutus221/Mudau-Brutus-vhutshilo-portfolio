@@ -3,6 +3,7 @@ import login from "../../public/assets/portfolio/Login1.jpg";
 import media from "../../public/assets/portfolio/Multimedia.jpg";
 import cart from "../../public/assets/portfolio/Pizza cart.jpeg";
 import elect from "../../public/assets/portfolio/Election.jpeg";
+import ms from "../../public/assets/portfolio/ms.jpeg";
 import { MdExpandMore } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
@@ -32,6 +33,12 @@ export const getStaticProps = async () => {
     title: "Sms,Email,Signup and login verification site",
     imageSrc: login,
     url: "Sms-email-verification-site",
+  },
+  {
+    id: 5,
+    title: "Mechanic Generating Invoice Website",
+    imageSrc: ms,
+    url: "Mechanic-Generating-Invoice-Website",
   },
       
   ];
