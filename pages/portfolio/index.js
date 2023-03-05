@@ -12,9 +12,9 @@ export const getStaticProps = async () => {
   const portfolios = [
     {
     id: 1,
-    title: "Blockchain SRC e-voting Election",
+    title: "Blockchain Enabled SRC E-Voting System",
     imageSrc: elect,
-    url: "E-voting Blockchain Enabled",
+    url: "Blockchain Enabled SRC E-Voting System",
   },
   {
     id: 3,

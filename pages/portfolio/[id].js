@@ -16,7 +16,7 @@ const portfolios = [
   id: 1,
   title: "Blockchain SRC e-voting Election",
   imageSrc: elect,
-  url: "E-voting Blockchain Enabled",
+  url: "Blockchain Enabled SRC E-Voting System",
 },
 {
   id: 3,
@@ -87,7 +87,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
         
         <h6>
           
-          A blockchain is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
+          A Blockchain Enabled SRC E-Voting System is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
           
  </h6>
          

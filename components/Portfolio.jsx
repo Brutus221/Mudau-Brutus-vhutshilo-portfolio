@@ -13,7 +13,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Blockchain SRC e-voting Election",
+      title: "Blockchain Enabled SRC E-Voting System",
       imageSrc: elect,
       url: "E-voting Blockchain Enabled",
     },
@@ -45,8 +45,8 @@ const Portfolio = () => {
         </h2>
         <br />
         <p >
-        The projects aims is to solve a certain problem and make things easier using technology. The projects includes the following languages : Javascript, css, html, php, solidity ,nextjs ,alpine js ,tailwind ,phpmailer ,twillio Api ,MySql php ,Java.
-        </p>
+        The projects aim is to solve a certain problem and make things easier using technology. 1. The blockchain enabled E-voting system is bringing safer election by using euthereum contracts as a ballot, and give enough information access such as menifestos of each political parties. 2. A pizza cart system allows users to add items to a cart and then calculate the total cost of pizza being purchased. 3. An Mp3/Mp4 multimedia player allows a user to play music and watch videos on the web. 4. A verification site bring safety to the system , it allows users to register valid emails by verifying it using email otp, and allows a user to login the system passes through some steps verifying themselves by entering a verification otp received from sms. on valid contacts which is registered. everytime a user login they receive an sms otp to verify themselves. The projects include the following languages : Javascript, css, html, php, solidity ,nextjs ,alpine js , tailwind ,phpmailer ,twillio Api , and MySql php
+         </p>
         <br />
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
