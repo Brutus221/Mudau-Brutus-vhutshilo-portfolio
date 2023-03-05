@@ -16,7 +16,7 @@ const portfolios = [
   id: 1,
   title: "Blockchain SRC e-voting Election",
   imageSrc: elect,
-  url: "Blockchain Enabled SRC E-Voting System",
+  url: "E-voting Blockchain Enabled",
 },
 {
   id: 3,
@@ -149,9 +149,9 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
         
         <h6>
           A  Sms,Email,Signup And Login Verification Site is a system that is focused on security of the system,
-          in this system a user register an account with email verification, an email carry an otp generated on real time,
+          in this system a user register an account with email verification, an email carry an One Time Pin[OTP] generated on real time,
            when verified ten user will login using student number, 
-           but to login they have to verify their number phone by otp sent as an sms, 
+           but to login they have to verify their number phone by  One Time Pin[OTP]  sent as an sms, 
            this number should be registered when a user register to the site.
           after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
  </h6>
