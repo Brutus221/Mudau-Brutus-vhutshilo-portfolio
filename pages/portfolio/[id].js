@@ -109,7 +109,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
       <div>
         
         <h6>
-       Ecommerce Pizza Cart is a website that allows users to buy Pizza online with different sizes. uses a cart to store orders and the calculate the total price to pay, please view the deployed project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
+       Ecommerce Pizza Cart is a website that allows users to buy Pizza online with different sizes. uses a cart to store orders and the calculate the total price to pay, please view the deployed project: <a className = " text-orange-500 font-small " href="https://brutus221.github.io/My-Pizza-Cart/">here</a> watch a video below
  </h6>
          
       </div>
