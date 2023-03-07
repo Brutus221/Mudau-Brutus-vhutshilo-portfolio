@@ -12,18 +12,18 @@ const HomePage = () => {
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-right bg-black">
      
       <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-blue-300 bg-black mt-4">
-          <div className="rounded-xl ">
+          <div className="rounded-xl   ">
           <Image src={heroImage} alt="me" />
         </div>
         <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
         
         <p>
-        <div className="group flex items-left justify-left my-8  text-white px-6 py-3 font-bold uppercase rounded-md ">
+        <div className="group flex items-left justify-left my-8   text-white px-6 py-3 font-bold  uppercase rounded-md ">
         <p>
           Mudau Brutus Vhutshilo
           </p>
           </div>
-          <p className="text-gray-600 text-xl max-w-sm mx-auto">
+          <p className="text-white text-xl shadow-xl shadow-blue-500   max-w-sm mx-auto">
           I have 8 Months experience of Full Stack development  and 3 months experience of Datacenter  Administrator.
            I have a Bsc in Computer Sciences and information systems.
         </p>
