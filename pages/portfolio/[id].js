@@ -87,7 +87,7 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
         
         <h6>
           
-          A Blockchain Enabled SRC E-Voting System is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
+          A Blockchain Enabled SRC E-Voting System is a system that a user can vote safely using euthereum blockchain. users can also read pdfs of political parties menifestos here is a deployed link for a project: <a className = " text-orange-500 font-small " href="">here</a> watch a video below
           
  </h6>
          
@@ -153,12 +153,12 @@ const OnePortfolio = ({ portfolio: {title, imageSrc } }) => {
            when verified ten user will login using student number, 
            but to login they have to verify their number phone by  One Time Pin[OTP]  sent as an sms, 
            this number should be registered when a user register to the site.
-          after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="https://web.facebook.com/profile.php?id=100006265784590">here</a> watch a video below
+          after Sms and email verification is done ten a user gains access to the system. please view a deployed project: <a className = " text-orange-500 font-small " href="">here</a> watch a video below
  </h6>
          
       </div>
       <div className="flex items-center justify-left gap-10">
-      <Link href="/portfolio">
+      <Link href="">
   <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
   
       <p>
